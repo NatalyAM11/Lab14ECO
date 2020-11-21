@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Lab14ECO</title>
+<link rel="stylesheet" href="css/signup.css">
+</head>
+
+
+<h1 id="titulo">Registro</h1>
+
+<body>
+    <div id="registro">
+    <input id="nombre" placeholder="Nombre" type="text">
+    <input id="telefono" placeholder="Teléfono" type="text">
+    <input id="correo" placeholder="Correo" type="text">
+    <input id="contraseña" placeholder="Contraseña" type="text">
+    <input id="contraseña2" placeholder="Confirme su contraseña" type="text">
+    <button id=bRegistro>Registrarse</button>
+    <h3 id="tieneCuenta">Ya tengo cuenta</h3>
+</div>
+
+</body>
+
+
+
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBkXJfSbsXS95oBdg9IkqMCY1Y_cfotjmo",
+      authDomain: "lab14eco.firebaseapp.com",
+      databaseURL: "https://lab14eco.firebaseio.com",
+      projectId: "lab14eco",
+      storageBucket: "lab14eco.appspot.com",
+      messagingSenderId: "746856933312",
+      appId: "1:746856933312:web:68414f90b0eff0b4288a25",
+      measurementId: "G-KRBD9RNTMN"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+<script src= "js/signup.js"></script>
